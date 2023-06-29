@@ -12,7 +12,7 @@ public class polymorphism {
 }
 class minimum{
     void min(int a,int b){  //form 1
-        if(a<b)
+        if(a>b)
         {
             System.out.println(a);
         }
@@ -23,11 +23,11 @@ class minimum{
     }
     void min(int a,int b,int c)    //form 2
     {
-        if(a<b && a<c)
+        if(a>b && a>c)
         {
             System.out.println(a);
         }
-        else if(b<c)
+        else if(b>c)
         {
             System.out.println(b);
         }
